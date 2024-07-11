@@ -1,0 +1,38 @@
+{
+    "name": "tree-sitter-sml",
+    "description": "Standard ML (SML) grammar for tree-sitter",
+    "version": "0.1.0",
+    "author": "Matthew Fluet <Matthew.Fluet@gmail.com> (https://github.com/MatthewFluet)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MatthewFluet/tree-sitter-sml.git"
+    },
+    "main": "bindings/node",
+    "scripts": {
+        "generate": "tree-sitter generate",
+        "pretest": "npm run generate",
+        "test": "tree-sitter test",
+        "parse": "tree-sitter parse",
+        "highlight": "tree-sitter highlight",
+        "prebuild": "npm run test",
+        "build": "cp ${XDG_CACHE_HOME:-${HOME}/.cache}/tree-sitter/lib/sml.so ."
+    },
+    "dependencies": {
+        "nan": "^2.16.0"
+    },
+    "devDependencies": {
+        "tree-sitter-cli": "^0.20.6"
+    },
+    "tree-sitter": [
+      {
+          "scope": "source.ml",
+          "file-types": [
+              "sml",
+              "sig",
+              "fun",
+              "ML"
+          ]
+      }
+    ]
+}

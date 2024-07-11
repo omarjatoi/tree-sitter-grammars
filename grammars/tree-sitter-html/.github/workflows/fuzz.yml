@@ -1,0 +1,26 @@
+name: Fuzz Parser
+
+on:
+  pull_request:
+    branches:
+      - "**"
+    paths:
+      - src/scanner.c
+  push:
+    branches:
+      - "master"
+    paths:
+      - src/scanner.c
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Parser fuzzing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vigoux/tree-sitter-fuzz-action@v1
+        with:
+          language: html
+          external-scanner: src/scanner.c
+          time: 60
