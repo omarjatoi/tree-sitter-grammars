@@ -1,0 +1,21 @@
+[package]
+name = "tree-sitter-grammars"
+version = "0.1.0"
+edition = "2021"
+description = "Command line program to add and update tree-sitter grammars for different languages."
+license = "MPL-2.0"
+repository = "https://github.com/omarjatoi/tree-sitter-grammars"
+homepage = "https://github.com/omarjatoi/tree-sitter-grammars"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.13", features = ["derive"] }
+futures = "0.3.30"
+git2 = "0.18.1"
+indicatif = "0.17.7"
+num_cpus = "1.16.0"
+serde = "1.0.195"
+serde_derive = "1.0.195"
+tokio = { version = "1.35.1", features = ["full"] }
+toml = "0.8.8"
