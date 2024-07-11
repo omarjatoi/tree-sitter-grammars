@@ -1,0 +1,225 @@
+# Automatically generated, DO NOT EDIT! Use `tree-sitter-grammars add` to modify.
+
+[languages.ada]
+name = "tree-sitter-ada"
+git = "https://github.com/briot/tree-sitter-ada.git"
+
+[languages.agda]
+name = "tree-sitter-agda"
+git = "https://github.com/tree-sitter/tree-sitter-agda.git"
+
+[languages.bash]
+name = "tree-sitter-bash"
+git = "https://github.com/tree-sitter/tree-sitter-bash.git"
+
+[languages.c]
+name = "tree-sitter-c"
+git = "https://github.com/tree-sitter/tree-sitter-c.git"
+
+[languages.c-sharp]
+name = "tree-sitter-c-sharp"
+git = "https://github.com/tree-sitter/tree-sitter-c-sharp.git"
+
+[languages.capnp]
+name = "tree-sitter-capnp"
+git = "https://github.com/amaanq/tree-sitter-capnp.git"
+
+[languages.clojure]
+name = "tree-sitter-clojure"
+git = "https://github.com/sogaiu/tree-sitter-clojure.git"
+
+[languages.commonlisp]
+name = "tree-sitter-commonlisp"
+git = "https://github.com/theHamsta/tree-sitter-commonlisp.git"
+
+[languages.cpp]
+name = "tree-sitter-cpp"
+git = "https://github.com/tree-sitter/tree-sitter-cpp.git"
+
+[languages.css]
+name = "tree-sitter-css"
+git = "https://github.com/tree-sitter/tree-sitter-css.git"
+
+[languages.d]
+name = "tree-sitter-d"
+git = "https://github.com/gdamore/tree-sitter-d.git"
+
+[languages.dockerfile]
+name = "tree-sitter-dockerfile"
+git = "https://github.com/camdencheek/tree-sitter-dockerfile.git"
+
+[languages.elisp]
+name = "tree-sitter-elisp"
+git = "https://github.com/Wilfred/tree-sitter-elisp.git"
+
+[languages.elixir]
+name = "tree-sitter-elixir"
+git = "https://github.com/elixir-lang/tree-sitter-elixir.git"
+
+[languages.elm]
+name = "tree-sitter-elm"
+git = "https://github.com/elm-tooling/tree-sitter-elm.git"
+
+[languages.erlang]
+name = "tree-sitter-erlang"
+git = "https://github.com/WhatsApp/tree-sitter-erlang.git"
+
+[languages.gleam]
+name = "tree-sitter-gleam"
+git = "https://github.com/gleam-lang/tree-sitter-gleam.git"
+
+[languages.go]
+name = "tree-sitter-go"
+git = "https://github.com/tree-sitter/tree-sitter-go.git"
+
+[languages.hack]
+name = "tree-sitter-hack"
+git = "https://github.com/slackhq/tree-sitter-hack.git"
+
+[languages.hare]
+name = "tree-sitter-hare"
+git = "https://github.com/tree-sitter-grammars/tree-sitter-hare.git"
+
+[languages.haskell]
+name = "tree-sitter-haskell"
+git = "https://github.com/tree-sitter/tree-sitter-haskell.git"
+
+[languages.hcl]
+name = "tree-sitter-hcl"
+git = "https://github.com/tree-sitter-grammars/tree-sitter-hcl.git"
+
+[languages.html]
+name = "tree-sitter-html"
+git = "https://github.com/tree-sitter/tree-sitter-html.git"
+
+[languages.java]
+name = "tree-sitter-java"
+git = "https://github.com/tree-sitter/tree-sitter-java.git"
+
+[languages.javascript]
+name = "tree-sitter-javascript"
+git = "https://github.com/tree-sitter/tree-sitter-javascript.git"
+
+[languages.jsdoc]
+name = "tree-sitter-jsdoc"
+git = "https://github.com/tree-sitter/tree-sitter-jsdoc.git"
+
+[languages.json]
+name = "tree-sitter-json"
+git = "https://github.com/tree-sitter/tree-sitter-json.git"
+
+[languages.julia]
+name = "tree-sitter-julia"
+git = "https://github.com/tree-sitter/tree-sitter-julia.git"
+
+[languages.kotlin]
+name = "tree-sitter-kotlin"
+git = "https://github.com/fwcd/tree-sitter-kotlin.git"
+
+[languages.latex]
+name = "tree-sitter-latex"
+git = "https://github.com/latex-lsp/tree-sitter-latex.git"
+
+[languages.llvm]
+name = "tree-sitter-llvm"
+git = "https://github.com/benwilliamgraham/tree-sitter-llvm.git"
+
+[languages.lua]
+name = "tree-sitter-lua"
+git = "https://github.com/tjdevries/tree-sitter-lua.git"
+
+[languages.markdown]
+name = "tree-sitter-markdown"
+git = "https://github.com/MDeiml/tree-sitter-markdown.git"
+
+[languages.nix]
+name = "tree-sitter-nix"
+git = "https://github.com/nix-community/tree-sitter-nix.git"
+
+[languages.objc]
+name = "tree-sitter-objc"
+git = "https://github.com/jiyee/tree-sitter-objc.git"
+
+[languages.ocaml]
+name = "tree-sitter-ocaml"
+git = "https://github.com/tree-sitter/tree-sitter-ocaml.git"
+
+[languages.org]
+name = "tree-sitter-org"
+git = "https://github.com/milisims/tree-sitter-org.git"
+
+[languages.pascal]
+name = "tree-sitter-pascal"
+git = "https://github.com/Isopod/tree-sitter-pascal.git"
+
+[languages.perl]
+name = "tree-sitter-perl"
+git = "https://github.com/tree-sitter-perl/tree-sitter-perl.git"
+
+[languages.php]
+name = "tree-sitter-php"
+git = "https://github.com/tree-sitter/tree-sitter-php.git"
+
+[languages.protobuf]
+name = "tree-sitter-protobuf"
+git = "https://github.com/mitchellh/tree-sitter-proto.git"
+
+[languages.python]
+name = "tree-sitter-python"
+git = "https://github.com/tree-sitter/tree-sitter-python.git"
+
+[languages.ql]
+name = "tree-sitter-ql"
+git = "https://github.com/tree-sitter/tree-sitter-ql.git"
+
+[languages.r]
+name = "tree-sitter-r"
+git = "https://github.com/r-lib/tree-sitter-r.git"
+
+[languages.racket]
+name = "tree-sitter-racket"
+git = "https://github.com/6cdh/tree-sitter-racket.git"
+
+[languages.regex]
+name = "tree-sitter-regex"
+git = "https://github.com/tree-sitter/tree-sitter-regex.git"
+
+[languages.ruby]
+name = "tree-sitter-ruby"
+git = "https://github.com/tree-sitter/tree-sitter-ruby.git"
+
+[languages.rust]
+name = "tree-sitter-rust"
+git = "https://github.com/tree-sitter/tree-sitter-rust.git"
+
+[languages.scala]
+name = "tree-sitter-scala"
+git = "https://github.com/tree-sitter/tree-sitter-scala.git"
+
+[languages.scheme]
+name = "tree-sitter-scheme"
+git = "https://github.com/6cdh/tree-sitter-scheme.git"
+
+[languages.sml]
+name = "tree-sitter-sml"
+git = "https://github.com/MatthewFluet/tree-sitter-sml.git"
+
+[languages.starlark]
+name = "tree-sitter-starlark"
+git = "https://github.com/tree-sitter-grammars/tree-sitter-starlark.git"
+
+[languages.swift]
+name = "tree-sitter-swift"
+git = "https://github.com/alex-pinkus/tree-sitter-swift.git"
+
+[languages.toml]
+name = "tree-sitter-toml"
+git = "https://github.com/ikatyang/tree-sitter-toml.git"
+
+[languages.typescript]
+name = "tree-sitter-typescript"
+git = "https://github.com/tree-sitter/tree-sitter-typescript.git"
+
+[languages.verilog]
+name = "tree-sitter-verilog"
+git = "https://github.com/tree-sitter/tree-sitter-verilog.git"
